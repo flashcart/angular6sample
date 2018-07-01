@@ -14,7 +14,7 @@ import { HeroDetailPageComponent } from './hero-detail/hero-detail-page.componen
 
 @NgModule({
   declarations: [ButtonComponent, AppComponent, HeroesComponent, HeroDetailComponent, MessagesComponent, DashboardComponent, HeroDetailPageComponent],
-  imports: [BrowserModule, FormsModule, AppRoutingModule],
+  imports: [BrowserModule, FormsModule, AppRoutingModule, HttpClientModule],
   entryComponents: [ButtonComponent],
   bootstrap : [AppComponent]
 })
