@@ -1,7 +1,8 @@
-<div style="border: 1px solid #e4e4e4">
-<h3>Hero Details Component</h3>
-  <div *ngIf="hero">
-    
+<h1>
+  Hero Detail Page!
+</h1>
+<div *ngIf="hero">
+
     <h2>{{hero.name | uppercase}} Details..</h2>
     <div><span>id: </span>{{hero.id}}</div>
     <div>
@@ -9,6 +10,7 @@
         <input [(ngModel)]="hero.name" placeholder="name"/>
       </label>
     </div>
-    
+  
   </div>
-</div>
+
+<button (click)="goBack()">go back</button>
